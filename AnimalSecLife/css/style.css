@@ -1,0 +1,156 @@
+/* Color Amatista Paleta de Colores N 3434 */
+
+:root {
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+    --negro: #131416;
+    --verde: #235434;
+    --gris: #e0d3ef;
+    --verde-azul: #7bb38d;
+    --azul: #a7dcb2;
+    --blanco: #f0e5dc;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+/* Globales */
+
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--fuenteHeading);
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Utilidades */
+
+.no-margin {
+    margin: 0;
+}
+
+.no-paddig {
+    padding: 0;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.header {
+    background-color: var(--verde-azul);
+    height: 9rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header__texto {
+    text-align: center;
+    color: var(--violeta);
+}
+
+@media(min-width: 768px) {
+    .header__texto {
+        margin-top: 15rem;
+    }
+}
+
+@media(min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+.logo {
+    color: var(--blanco);
+}
+
+.logo__nombre {
+    font-weight: 400;
+}
+
+.logo__bold {
+    font-weight: 700;
+}
+
+
+/* Navegación */
+
+@media(min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--blanco);
+}
+
+
+/* Imagen */
+
+.fondo {
+    height: 10rem;
+}
+
+.footer {
+    background-color: var(--verde-azul);
+    padding-bottom: 3rem;
+    text-align: center;
+    color: var(--blanco);
+    background-position: center center;
+}
